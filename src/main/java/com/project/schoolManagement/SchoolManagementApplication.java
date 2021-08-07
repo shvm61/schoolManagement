@@ -1,8 +1,5 @@
 package com.project.schoolManagement;
 
-import javax.annotation.PostConstruct;
-
-import com.project.schoolManagement.model.Test;
 import com.project.schoolManagement.repository.TestRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,10 +12,10 @@ public class SchoolManagementApplication {
 	@Autowired
 	TestRepository testRepo;
 
-	@PostConstruct
-	public void addTest() {
-		testRepo.save(Test.builder().name("first").build());
-	}
+	// @PostConstruct
+	// public void addTest() {
+	// testRepo.save(Test.builder().name("first").build());
+	// }
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolManagementApplication.class, args);
