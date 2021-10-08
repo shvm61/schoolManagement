@@ -2,7 +2,6 @@ package com.project.schoolManagement.service;
 
 import com.project.schoolManagement.model.Subject;
 import com.project.schoolManagement.repository.SubjectRepository;
-import com.project.schoolManagement.request.Request;
 import com.project.schoolManagement.util.ResponseUtil;
 
 import org.springframework.beans.factory.annotation.Autowired;

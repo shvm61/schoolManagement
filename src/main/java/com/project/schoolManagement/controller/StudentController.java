@@ -40,7 +40,7 @@ public class StudentController {
 
     @GetMapping("/")
     public ResponseEntity<Object> studentsAll(@RequestParam(name = "classId", required = false) Long classId) {
-        System.out.println(classId);
+
         return studSer.studentAll(classId);
     }
 }

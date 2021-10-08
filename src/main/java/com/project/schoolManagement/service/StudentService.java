@@ -4,13 +4,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
-import com.fasterxml.jackson.core.sym.Name;
 import com.project.schoolManagement.model.Section;
 import com.project.schoolManagement.model.Student;
 import com.project.schoolManagement.model.User;
 import com.project.schoolManagement.repository.StudentRepo;
 import com.project.schoolManagement.repository.UserRepository;
-import com.project.schoolManagement.repository.StudentRepo.NameClass;
 import com.project.schoolManagement.request.Request;
 import com.project.schoolManagement.util.JwtUtil;
 import com.project.schoolManagement.util.ResponseUtil;

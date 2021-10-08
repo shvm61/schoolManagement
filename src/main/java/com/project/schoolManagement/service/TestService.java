@@ -1,7 +1,5 @@
 package com.project.schoolManagement.service;
 
-import java.util.List;
-
 import com.project.schoolManagement.repository.StudentRepo;
 import com.project.schoolManagement.repository.StudentRepo.NameOnly;
 import com.project.schoolManagement.request.TestRequest;

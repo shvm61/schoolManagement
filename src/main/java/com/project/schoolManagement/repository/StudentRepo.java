@@ -1,14 +1,11 @@
 package com.project.schoolManagement.repository;
 
-import java.util.Collection;
 import java.util.List;
 
 import com.project.schoolManagement.model.Section;
 import com.project.schoolManagement.model.Student;
-import com.project.schoolManagement.model.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 
 import lombok.Value;
 
